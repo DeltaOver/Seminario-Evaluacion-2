@@ -1,0 +1,594 @@
+
+body{
+  font-family: 'Gotham Rounded A', 'Gotham Rounded B', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 100%;
+	line-height: 100%;
+	background-color: rgb(51,51,51,0.8);
+}
+
+ul {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+	border-top: 1px solid #999;
+	margin-left: 10px;
+    margin: 0px;
+}
+
+a {
+  color:#999;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:#999;
+  text-decoration: underline;
+}
+
+/* Grid + + + + + + + + + + + + + */
+
+.container-fluid {
+	max-width: 1300px;
+	padding: 10px 20px 200px 20px;
+}
+
+.gutter-12.row {
+	margin-right: -6px;
+	margin-left: -6px;
+}
+
+.gutter-12 > [class^="col-"], .gutter-12 > [class^=" col-"] {
+	padding-right: 6px;
+	padding-left: 6px;
+}
+	
+/* Navigation + + + + + + + + + + + + + */
+
+.nav {
+	margin: 30px 6px 12px 6px;
+}
+
+.nav-item {
+	font-size: 1.4em;
+  padding: 0;
+  margin-top: 3px;
+}
+
+.nav-item-logo {
+	font-weight: 500;
+	font-size: 2.4em;
+  padding: 0px;
+}
+
+.nav-rule {
+  margin-bottom: 6px;
+	margin-top: 0px;
+	margin-left: 6px;
+  margin-right: 6px;
+}
+
+.no-link-styling {
+  text-decoration: none;
+  color: #fff;
+}
+
+.no-link-styling:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Tiles + + + + + + + + + + + + + */
+
+.tiles-hero-item {
+	margin: 5px 0px 0px 0px;
+	padding-left: 6px;
+  padding-right: 6px;
+}
+
+.tiles-item {
+	margin: 12px 0px 0px 0px;
+	padding-left: 6px;
+  padding-right: 6px;
+}
+
+.tile-label {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2em;
+	position: absolute;
+  bottom: 6px;
+  left: 12px;
+	color: #FFF;
+  background: rgba(0, 0, 0, .3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 3px 8px;
+/*  width: 100%;
+  text-align: center;
+  z-index: 1;
+  top: 48%;
+  text-transform: uppercase;*/
+}
+
+.tile-label-container {
+  z-index: 100;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, .3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 3px;
+}
+.shop-item{
+  border: 1px solid;
+  border-color: #cccccc;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.shop-image{
+  margin-bottom: 9px;
+}
+
+.shop-description {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #999;
+	margin-left: 2px;
+}
+
+.shop-title {
+	font-weight: 500;
+	margin: 0px 0px 5px 0px;
+	color: #555;
+}
+
+.shop-button {
+	font-weight: 500;
+	font-size: 1.2em;
+	margin: 5px 0px 0px 0px;
+	color: #555;
+	width: 100%;
+}
+
+
+/* Description + + + + + + + + + + + + + */
+
+.description {
+	margin: 30px 0px 0px 0px;
+}
+
+.description-item-primary {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.description-title-primary {
+	font-weight: bold;
+	font-size: 2.4em; 
+	margin: 0px 0px 5px 0px;
+    color: #555;
+}
+
+.description-primary {
+    margin-top: 10px;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.6em;
+	line-height: 1.6em;
+}
+
+.description-title-secondary {
+	font-weight: bold;
+	font-size: 2.4em; 
+	margin: -13px 0px 5px 0px;
+	color: #555;
+}
+
+.description-secondary {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #999;
+	padding-bottom: 20px;
+}
+
+.description-secondary a {
+  text-decoration:none;
+  color: #333;
+  font-size: 15px;
+}
+
+.description-about {
+ 	padding-right: 15px;
+ 	padding-left: 0px;
+}
+
+.description-about-end {
+ 	padding-right: 0px;
+ 	padding-left: 0px;
+}
+
+@media only screen and (min-width: 767px){
+  .description-about {
+  	padding-right: 0px;
+  }
+}
+
+.list-prefix {
+	color: #555;
+    font-size: 50px;
+}
+
+.project-link {
+	font-weight: 400;
+	color: #999;
+}
+
+li {
+  padding-top: 6px;
+}
+
+.info-sub{
+  color:#999;
+}
+
+.info-link{
+  color:#333;
+}
+
+.four {
+	font-size: 8em;
+	font-weight: 400;
+/*  line-height: 1.1em;*/
+	margin-top: 46px;
+	padding: 0px 6px;
+}
+
+.four-text {
+  color:#999;
+}
+
+@media screen and (max-width: 768px){
+  .index-link-styling {
+    font-size: 0.7em;
+  }
+  .index-links {
+    line-height: 0.6em !important;
+  }
+}
+
+.no-backgroundcliptext .index-links { 
+  font-size: 8em;
+	font-weight: 400;
+	line-height: 1em;
+	margin-top: 11px;
+	padding: 0px 6px;
+}
+
+.backgroundcliptext .index-links { 
+  font-size: 8em;
+	font-weight: 400;
+	line-height: 1em;
+	margin-top: 11px;
+	padding: 0px 6px;
+}
+
+.no-backgroundcliptext .index-link-styling { 
+  text-decoration: none;
+/*  line-height: 0.5em;*/
+}
+
+.backgroundcliptext .index-link-styling { 
+  text-decoration: none;
+	color: transparent;
+/*  line-height: 0.5em;*/
+}
+
+.no-backgroundcliptext .index-link-styling:hover { 
+  text-decoration: none;
+}
+
+.backgroundcliptext .index-link-styling:hover { 
+  text-decoration: none;
+  color: rgba(255,255,255,0.3);
+}
+
+.backgroundcliptext .index-link-Elemental{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/Elemental-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-Elemental{
+  color: #26c9ea;
+}
+
+.backgroundcliptext .index-link-FAR14{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/FAR14-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-FAR14{
+  color: #f94448;
+}
+
+.backgroundcliptext .index-link-FAR13{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/FAR13-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-FAR13{
+  color: #383461;
+}
+
+.backgroundcliptext .index-link-FAR12{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/FAR12-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-FAR12{
+  color: #322440;
+}
+
+.backgroundcliptext .index-link-FAR11{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/FAR11-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-FAR11{
+  color: #8848b8;
+}
+
+.backgroundcliptext .index-link-FAR10{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/FAR10-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-FAR10{
+  color: #ee4035;
+}
+
+.backgroundcliptext .index-link-FAR09{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/FAR09-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-FAR09{
+  color: #f1eb79;
+}
+
+.backgroundcliptext .index-link-FAR08{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/FAR08-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-FAR08{
+  color: #545d74;
+}
+
+.backgroundcliptext .index-link-FAR07{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/FAR07-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-FAR07{
+  color: #50c1df;
+}
+
+.backgroundcliptext .index-link-FAR06{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/FAR06-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-FAR06{
+  color: #ebdc0a;
+}
+
+.backgroundcliptext .index-link-FAR05{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/FAR05-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-FAR05{
+  color: #cda44d;
+}
+
+.backgroundcliptext .index-link-PhotoViz{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/PhotoViz-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-PhotoViz{
+  color: #3c9ef5;
+}
+
+.backgroundcliptext .index-link-Reporter{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/Reporter-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-Reporter{
+  color: #0ac0c3
+}
+
+.backgroundcliptext .index-link-BikeCycle{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/BikeCycle-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-BikeCycle{
+  color: #08a9cd
+}
+
+.backgroundcliptext .index-link-Facebook{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/Facebook-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-Facebook{
+  color: #3d559b
+}
+
+.backgroundcliptext .index-link-Eyeo{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/Eyeo-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-Eyeo{
+  color: #ff5987
+}
+
+.backgroundcliptext .index-link-TypeCon{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/TypeCon-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-TypeCon{
+  color: #ebe811
+}
+
+.backgroundcliptext .index-link-Skillshare{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/Skillshare-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-Skillshare{
+  color: #8893b5
+}
+
+.backgroundcliptext .index-link-B5B{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/B5B-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-B5B{
+  color: #aa55b4
+}
+
+.backgroundcliptext .index-link-Editorial{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/Editorial-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-Editorial{
+  color: #99c7c0
+}
+
+.backgroundcliptext .index-link-Daytum{
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../images/index/Daytum-index.jpg);
+}
+
+.no-backgroundcliptext .index-link-Daytum{
+  color: #fe4737
+}
+
+/* Convenience Classes + + + + + + + + + + + + + */
+.padding-bottom-6 {
+  padding-bottom: 6px;
+}
+
+.padding-top-13 {
+  padding-top: 13px;
+}
+
+.padding-top-11 {
+  padding-top: 11px;
+}
+
+.padding-left-right-6 {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.margin-top-6 {
+  margin-top: 6px;
+}
+
+.margin-left-6 {
+  margin-left: 6px;
+}
+
+.margin-right-6 {
+  margin-right: 6px;
+}
+
+.margin-bottom-6 {
+  margin-bottom: 6px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0px;
+}
+
+.float_right {
+  float: right;
+}
+
+canvas{
+    margin-top: -5000px;
+    margin-bottom: 100px;
+    border-radius: 12px;
+}
+
+.col-md-4 {
+    margin-top: 700px;
+}
+
+.col-md-7{
+    margin-top: 700px;
+}
+
